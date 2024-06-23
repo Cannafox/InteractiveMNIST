@@ -1,0 +1,16 @@
+import logging
+import numpy as np
+from typing import Union
+
+logger = logging.getLogger('root')
+
+
+class Engine:
+    def __init__(self) -> None:
+        logger.info(f"Initializing {self.__class__.__name__}")
+
+    def load_image(self, image_array: np.ndarray) -> None:
+
+
+    def normalize_image(self, image_array: np.ndarray) -> np.ndarray:
+        return image_array / 255.

@@ -1,1 +1,1 @@
-from .main import DrawingWindow
+from .window import DrawingWindow
